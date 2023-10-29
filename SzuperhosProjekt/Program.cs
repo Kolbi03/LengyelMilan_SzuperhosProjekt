@@ -12,7 +12,7 @@ namespace SzuperhosProjekt
         {
             try
             {
-                Kepregeny.Szereplok("files/szuperhosok.txt");
+                Kepregeny.Szereplok("szuperhos.txt");
                 Kepregeny.Szuperhosok();
             }
             catch (Exception ex)
